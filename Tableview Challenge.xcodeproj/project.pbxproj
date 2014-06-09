@@ -13,14 +13,14 @@
 		3FEB96B8194677B200A7ED95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB96B6194677B200A7ED95 /* InfoPlist.strings */; };
 		3FEB96BA194677B200A7ED95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB96B9194677B200A7ED95 /* main.m */; };
 		3FEB96BE194677B200A7ED95 /* TAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB96BD194677B200A7ED95 /* TAppDelegate.m */; };
-		3FEB96C1194677B200A7ED95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB96BF194677B200A7ED95 /* Main.storyboard */; };
-		3FEB96C4194677B200A7ED95 /* TViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB96C3194677B200A7ED95 /* TViewController.m */; };
 		3FEB96C6194677B200A7ED95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB96C5194677B200A7ED95 /* Images.xcassets */; };
 		3FEB96CD194677B200A7ED95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEB96CC194677B200A7ED95 /* XCTest.framework */; };
 		3FEB96CE194677B200A7ED95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEB96AD194677B200A7ED95 /* Foundation.framework */; };
 		3FEB96CF194677B200A7ED95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEB96B1194677B200A7ED95 /* UIKit.framework */; };
 		3FEB96D7194677B200A7ED95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB96D5194677B200A7ED95 /* InfoPlist.strings */; };
 		3FEB96D9194677B200A7ED95 /* Tableview_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB96D8194677B200A7ED95 /* Tableview_ChallengeTests.m */; };
+		3FEB96E31946780800A7ED95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB96E21946780800A7ED95 /* Main.storyboard */; };
+		3FEB96E61946783A00A7ED95 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB96E51946783A00A7ED95 /* TTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +44,15 @@
 		3FEB96BB194677B200A7ED95 /* Tableview Challenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tableview Challenge-Prefix.pch"; sourceTree = "<group>"; };
 		3FEB96BC194677B200A7ED95 /* TAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAppDelegate.h; sourceTree = "<group>"; };
 		3FEB96BD194677B200A7ED95 /* TAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAppDelegate.m; sourceTree = "<group>"; };
-		3FEB96C0194677B200A7ED95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FEB96C2194677B200A7ED95 /* TViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TViewController.h; sourceTree = "<group>"; };
-		3FEB96C3194677B200A7ED95 /* TViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TViewController.m; sourceTree = "<group>"; };
 		3FEB96C5194677B200A7ED95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FEB96CB194677B200A7ED95 /* Tableview ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tableview ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEB96CC194677B200A7ED95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3FEB96D4194677B200A7ED95 /* Tableview ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tableview ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		3FEB96D6194677B200A7ED95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FEB96D8194677B200A7ED95 /* Tableview_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tableview_ChallengeTests.m; sourceTree = "<group>"; };
+		3FEB96E21946780800A7ED95 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3FEB96E41946783A00A7ED95 /* TTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTableViewController.h; sourceTree = "<group>"; };
+		3FEB96E51946783A00A7ED95 /* TTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +114,11 @@
 			children = (
 				3FEB96BC194677B200A7ED95 /* TAppDelegate.h */,
 				3FEB96BD194677B200A7ED95 /* TAppDelegate.m */,
-				3FEB96BF194677B200A7ED95 /* Main.storyboard */,
-				3FEB96C2194677B200A7ED95 /* TViewController.h */,
-				3FEB96C3194677B200A7ED95 /* TViewController.m */,
 				3FEB96C5194677B200A7ED95 /* Images.xcassets */,
 				3FEB96B4194677B200A7ED95 /* Supporting Files */,
+				3FEB96E21946780800A7ED95 /* Main.storyboard */,
+				3FEB96E41946783A00A7ED95 /* TTableViewController.h */,
+				3FEB96E51946783A00A7ED95 /* TTableViewController.m */,
 			);
 			path = "Tableview Challenge";
 			sourceTree = "<group>";
@@ -231,7 +231,7 @@
 			files = (
 				3FEB96C6194677B200A7ED95 /* Images.xcassets in Resources */,
 				3FEB96B8194677B200A7ED95 /* InfoPlist.strings in Resources */,
-				3FEB96C1194677B200A7ED95 /* Main.storyboard in Resources */,
+				3FEB96E31946780800A7ED95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEB96BA194677B200A7ED95 /* main.m in Sources */,
+				3FEB96E61946783A00A7ED95 /* TTableViewController.m in Sources */,
 				3FEB96BE194677B200A7ED95 /* TAppDelegate.m in Sources */,
-				3FEB96C4194677B200A7ED95 /* TViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +281,6 @@
 				3FEB96B7194677B200A7ED95 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3FEB96BF194677B200A7ED95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FEB96C0194677B200A7ED95 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		3FEB96D5194677B200A7ED95 /* InfoPlist.strings */ = {

@@ -44,28 +44,61 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+    int count = section;
+    NSLog(@"%i", count);
     // Return the number of rows in the section.
-    return 0;
+    switch(count){
+        case 0:
+            return 2;
+            break;
+        case 1:
+            return 1;
+            break;
+        case 2:
+            return 3;
+            break;
+        default:
+            return 0;
+            break;
+    }
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
+    static NSString *ident = @"CellIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ident];
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ident];
+    }
     // Configure the cell...
+    switch (indexPath.section) {
+        case 0:
+            [cell.textLabel  setText:@"I am in section 0"];
+            [cell.textLabel setTextColor: [UIColor redColor]];
+            break;
+        case 1:
+            [cell.textLabel  setText:@"another section"];
+            [cell.textLabel setTextColor: [UIColor blueColor]];
+            break;
+        case 2:
+            [cell.textLabel  setText:[NSString stringWithFormat:@"cell %i", indexPath.row]];
+            [cell.textLabel setTextColor: [UIColor yellowColor]];
+            break;
+        default:
+            break;
+    }
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
