@@ -1,5 +1,5 @@
 //
-//  TViewController.h
+//  TTableViewController.h
 //  Tableview Challenge
 //
 //  Created by Edward Lan on 6/9/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TViewController : UIViewController
+@interface TTableViewController : UITableViewController
 
 @end
